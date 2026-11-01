@@ -76,11 +76,16 @@ tr:last-child td{border-bottom:0}
 .filters{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .filters input{padding:9px;border:1px solid #dfe5ed;border-radius:7px}
 
+/* dua kolom di dashboard */
+.grid-2{display:grid;grid-template-columns:1.4fr 1fr;gap:20px;align-items:start}
+.grid-2 > .panel{min-width:0}
+
 /* ================= RESPONSIF ================= */
 
 /* Tablet & kecil: kartu jadi 2 kolom */
 @media (max-width:1024px){
   .cards{grid-template-columns:repeat(2,1fr)}
+  .grid-2{grid-template-columns:1fr}
 }
 
 /* Tablet: sidebar menyempit jadi rel ikon (tooltip dari atribut title) */
