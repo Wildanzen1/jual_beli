@@ -1,0 +1,1 @@
+<?php $type='purchase';require 'includes/transactions.php';

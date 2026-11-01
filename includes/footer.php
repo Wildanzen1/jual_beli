@@ -1,0 +1,1 @@
+</section><footer class="footer">© <?= date('Y') ?> TokoKu. Sistem Manajemen Jual Beli.</footer></main></div><script src="assets/js/app.js"></script></body></html>
